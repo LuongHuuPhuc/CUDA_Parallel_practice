@@ -1,7 +1,7 @@
 # LẬP TRÌNH VÀ BIÊN DỊCH CHƯƠNG TRÌNH CUDA TRÊN WINDOWS #
 ## **CUDA Toolkits là gì ?** ##
 ## **Tại sao lại phải cl.exe biên dịch thay cho gcc/g++.exe ?** ##
-*** 🤖 Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** <br>
+***🤖 Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** <br>
 **1. `cl.exe` - "C++ cho Windows chuẩn Microsoft"**
    * Thuộc hãng: Microsoft
    * Nền tảng chính: Windows
