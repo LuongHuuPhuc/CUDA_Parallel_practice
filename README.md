@@ -1,7 +1,8 @@
 # LẬP TRÌNH VÀ BIÊN DỊCH CHƯƠNG TRÌNH CUDA TRÊN WINDOWS #
 
 ## **Tại sao lại phải cl.exe biên dịch thay cho gcc/g++.exe ?** ##
-***I. Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** <br>
+***I. CUDA Toolkits là gì ?*** <br>
+***II. Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** <br>
 **1. `cl.exe` - "C++ cho Windows chuẩn Microsoft"**
    * Thuộc hãng: Microsoft
    * Nền tảng chính: Windows
@@ -21,6 +22,9 @@
    * Chạy trên: Cross-platform (đa nền tảng)
    * Tính năng nổi bật: Rất phổ biến cho Open-source, Linux app
    * Hỗ trợ CUDA: Không hỗ trợ tốt trên Windows <br>
-
+***
+🔥Tuy nhiên nếu muốn dùng `gcc/g++.exe` cho nvcc thì chỉ có thể dùng bộ của *MinGW-w64* - bộ host compiler chuẩn của Windows (native Windows) <br>
+⚠️ Trình biên dịch `gcc/g++.exe` của *MSYS2* lại không tương thích với chuẩn Windows mà CUDA Toolkits yêu cầu. Vì đây mặc định là kiểu dùng cho Linux/Unix (POSIX). Vì thế nên nvcc từ chối, không compile được 
+***III. Cách biên dịch và chạy CUDA trên Visual Studio Code sử dụng `cl.exe`*** <br.
 
    
