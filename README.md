@@ -11,7 +11,7 @@
    * Tính năng nổi bật: Tích hợp cực sâu vào Windows/ COM/ DirectX
    * Hỗ trợ CUDA: NVIDIA CUDA trên Windows yêu cầu `cl.exe`
    * Tôi ưu hóa cho Windows.exe
-   * Kết quả build: `.exe`, `.dll` theo chuẩn Windows
+   * Kết quả build: `.exe`, `.dll` theo chuẩn Windows <br>
 **2. `gcc/g++.exe` - "C++ cho mọi nền tảng chuẩn GNU"**
    * Thuộc hãng: GNU (cộng đồng mã nguồn mở)
    * Nền tảng chính: Linux/masOS, Windows(qua MSYS/MinGW)
@@ -19,7 +19,7 @@
    * Cách bien dịch: `gcc`, `g++` -> cú pháp GNU chuẩn
    * Chạy trên: Cross-platform (đa nền tảng)
    * Tính năng nổi bật: Rất phổ biến cho Open-source, Linux app
-   * Hỗ trợ CUDA: Không hỗ trợ tốt trên Windows
+   * Hỗ trợ CUDA: Không hỗ trợ tốt trên Windows <br>
 
 
    
