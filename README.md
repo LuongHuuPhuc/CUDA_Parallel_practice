@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/a3e55fc5-013e-414b-bc90-da4bb404cacf)
 
 ## **Tại sao lại phải cl.exe biên dịch thay cho gcc/g++.exe ?** ##
-### ***🤖 Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** ### <br>
+### ***🤖 Sự khác nhau giữa `cl.exe` và `gcc/g++.exe`*** ###
 **1. `cl.exe` - "C++ cho Windows chuẩn Microsoft"**
    * Thuộc hãng: Microsoft
    * Nền tảng chính: Windows
