@@ -7,7 +7,7 @@
   * Sự đồng bộ giữa CPU và GPU 
   * Thời gian thực thi trên CPU
  
-**👉 Lệnh sử dụng:**
+**👉 Lệnh sử dụng:** <br>
 Tổng quan hiệu suất kernel:
 ```bash
 nsys profile --stats=true ./your_program.exe
@@ -27,8 +27,8 @@ ncu ./your_program.exe
 Ngoài ra còn một số lệnh để lọc phần phân tích:
 | Mục tiêu                 | Lệnh sử dụng               | 
 |--------------------------|----------------------------|
-| Đo hiệu suất truy cập bộ nhớ | ncu --section MemoryWorkloadAnalysis  .\your_program.exe |
-| Kiểm tra occupancy kernel | ncu --section SpeedOfLight .\your_program.exe | 
+| Đo hiệu suất truy cập bộ nhớ | `ncu --section MemoryWorkloadAnalysis  .\your_program.exe` |
+| Kiểm tra occupancy kernel | `ncu --section SpeedOfLight .\your_program.exe` | 
 > Lưu ý, lệnh này chỉ dùng được khi mở quyền Admin cho command prompt hay PowerShell
 ![image](https://github.com/user-attachments/assets/f2ea7d79-32f1-45b6-89fe-e95fcad501ff)
 
