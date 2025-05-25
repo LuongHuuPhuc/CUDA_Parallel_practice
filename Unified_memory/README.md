@@ -7,9 +7,12 @@
   * Sự đồng bộ giữa CPU và GPU 
   * Thời gian thực thi trên CPU <br>
 **👉 Lệnh sử dụng:**
+Tổng quan hiệu suất kernel:
 ```bash
 nsys profile --stats=true ./your_program.exe
 ```
+![image](https://github.com/user-attachments/assets/01e9ce81-db05-47e9-bff3-bb22f8adc79c)
+
 2. `NSIGHT COMPUTE` (`ncu`)
 - Là công cụ để phân tích chi tiết kernel CUDA. Nó cung cấp thông tin về: 
  * Truy cập bộ nhớ (memory accesses)
@@ -19,6 +22,11 @@ nsys profile --stats=true ./your_program.exe
 ```bash
 ncu ./your_program.exe 
 ```
+Ngoài ra còn một số lệnh để lọc phần phân tích:
+| Mục tiêu                 | Lệnh sử dụng               | 
+|--------------------------|----------------------------|
+| Đo hiệu suất truy cập bộ nhớ | ncu --section MemoryWorkloadAnalysis  .\your_program.exe |
+| Kiểm tra occupancy kernel | ncu --section SpeedOfLight .\your_program.exe | 
 > Lưu ý, lệnh này chỉ dùng được khi mở quyền Admin cho command prompt hay PowerShell
+![image](https://github.com/user-attachments/assets/f2ea7d79-32f1-45b6-89fe-e95fcad501ff)
 
-![image](https://github.com/user-attachments/assets/01e9ce81-db05-47e9-bff3-bb22f8adc79c)
