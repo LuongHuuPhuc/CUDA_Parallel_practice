@@ -1,6 +1,6 @@
 # **Để phân tích hiệu suất của chương trình CUDA, sử dụng `NSIGHT COMPUTE` và `NSIGHT SYSTEMS`** #
 ### NSIGHT COMPUTE và NSIGHT SYSTEMS là gì ? ###
-1. `NSIGHT COMPUTE`(`nsys)
+1. `NSIGHT COMPUTE`(`nsys`)
 - Là công cụ giúp bạn phân tích hiệu suất toàn bộ pipeline chương trình CUDA, nó theo dõi: 
   * Thời gian thực thi của kernel
   * Hoạt động sao chép bộ nhớ giữa *host* và *device*
@@ -22,5 +22,5 @@ ncu ./your_program.exe
 > Lưu ý, lệnh này chỉ dùng được khi mở quyền Admin cho command prompt hay PowerShell
 
 <p align="center">
-<img src="C:\Users\ADMIN\OneDrive\Hình ảnh\Ảnh chụp màn hình\Ảnh chụp màn hình 2025-05-25 204442.png" alt="Efficiency" width="500">
+![image](https://github.com/user-attachments/assets/01e9ce81-db05-47e9-bff3-bb22f8adc79c)
 </p>
