@@ -21,6 +21,4 @@ ncu ./your_program.exe
 ```
 > Lưu ý, lệnh này chỉ dùng được khi mở quyền Admin cho command prompt hay PowerShell
 
-<p align="center">
 ![image](https://github.com/user-attachments/assets/01e9ce81-db05-47e9-bff3-bb22f8adc79c)
-</p>
